@@ -8,7 +8,7 @@
     <param name="io_method" value="mmap"/>
   </node>
 
-  <node name="turtle_open" pkg="turtle_open" type="cam2.py" output="screen" />
+  <node name="turtle_open" pkg="turtle_open" type="cam.py" output="screen" />
   <node name="turtlesim_node" pkg="turtlesim" type="turtlesim_node" />
    
 </launch>
